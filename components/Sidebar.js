@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
 import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
