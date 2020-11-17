@@ -10,6 +10,16 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  color: #202844;
+  font-weight: bold;
+}
+
+h3 {
+  color: #f08802;
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
 }

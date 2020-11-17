@@ -15,7 +15,7 @@ export default function Pagina() {
                 <hr/>
                 <p>El diagnóstico se baso en una serie de puntos concretos que enlistamos a continuación. Esto incluye una serie de parámetros de configuración.</p>
                 <ul>
-                    <li><b>Usabilidad</b> - lo fácil con que los usuarios y Google se mueven dentro del sitio</li>
+                    <li><b>Usabilidad</b> - lo fácil con que los usuarios y Google se mueven dentro del sitio (SEO)</li>
                     <li><b>Estructura</b> - la organización jerárquica del contenido</li>
                     <li><b>Funcionalidad</b> - si cumple su función, el objetivo</li>
                     <li><b>Apariencia</b> - si cumple su función</li>
