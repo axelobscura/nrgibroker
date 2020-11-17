@@ -44,24 +44,16 @@ class Sidebar extends Component {
                             </NavText>
                         </NavItem>
                     </Link>
-                    <NavItem eventKey="charts">
-                        <NavIcon>
-                            <i className="fa fa-fw fa-line-chart" style={{ fontSize: '1.75em' }} />
-                        </NavIcon>
-                        <NavText>
-                            Charts
-                        </NavText>
-                        <NavItem eventKey="charts/linechart">
+                    <Link href="/calendario">
+                        <NavItem eventKey="home">
+                            <NavIcon>
+                            <span class="lnr lnr-calendar-full" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
+                            </NavIcon>
                             <NavText>
-                                Line Chart
-                        </NavText>
+                                CALENDARIO
+                            </NavText>
                         </NavItem>
-                        <NavItem eventKey="charts/barchart">
-                            <NavText>
-                                Bar Chart
-                        </NavText>
-                        </NavItem>
-                    </NavItem>
+                    </Link>
                 </SideNav.Nav>
             </SideNav>
         )
