@@ -17,10 +17,30 @@ class Sidebar extends Component {
                     <Link href="/">
                         <NavItem eventKey="home">
                             <NavIcon>
-                                <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
+                                <span class="lnr lnr-home" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
                             </NavIcon>
                             <NavText>
-                                Home
+                                INICIO
+                            </NavText>
+                        </NavItem>
+                    </Link>
+                    <Link href="/pagina">
+                        <NavItem eventKey="home">
+                            <NavIcon>
+                                <span class="lnr lnr-rocket" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
+                            </NavIcon>
+                            <NavText>
+                                PÁGINA WEB
+                            </NavText>
+                        </NavItem>
+                    </Link>
+                    <Link href="/redes">
+                        <NavItem eventKey="home">
+                            <NavIcon>
+                            <span class="lnr lnr-thumbs-up" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
+                            </NavIcon>
+                            <NavText>
+                                REDES SOCIALES
                             </NavText>
                         </NavItem>
                     </Link>
