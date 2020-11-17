@@ -1,27 +1,15 @@
-import Head from 'next/head'
+import Layout from '../components/Layout';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>NRGIBROKER - DIAGNÓSTICO DE DESARROLLO</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <Layout>
       <main className={styles.main}>
-
+          <h2>PROPUESTA DE DESARROLLO</h2>
+          <h1 className="font-weight-bold">NRGI Broker</h1>
+          <p>ENERGY INSURANCE BROKER</p>
+          <h4>DESARROLLADO POR AZUL.MX</h4>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://azul.mx"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="https://azul.mx/templates/azulmx2013/images/badge.png" alt="AZUL Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+    </Layout>
   )
 }
