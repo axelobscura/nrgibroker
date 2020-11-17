@@ -21,11 +21,11 @@ export default function Pagina() {
                     <li><b>Apariencia</b> - si cumple su función, el objetivo</li>
                 </ul>
                 <p>Si  se  cometen  errores  (tanto por  acción  como  por  omisión)  en  estas  bases fundamentales del desarrollo, difícilmente se obtendrá esa visibilidad necesaria y, por tanto, el éxito de la web  estará  condenado.  Sería  como  construir sin  cimientos o  sobre  cimientos  con  graves  deficiencias  que propiciarán su derrumbe.</p>
-                <hr className={styles.hr} />
+                <hr className={styles.hr}></hr>
                 <Container fluid={true}>
                     <Row fluid={true}>
                         <Col>
-                            <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+                            <Tab.Container id="left-tabs-example" defaultActiveKey="first" className="myClass">
                                 <Row>
                                     <Col sm={3}>
                                         <Nav variant="pills" className="flex-column">
@@ -47,6 +47,20 @@ export default function Pagina() {
                                         <Tab.Content>
                                             <Tab.Pane eventKey="first">
                                                 <h3>USABILIDAD</h3>
+                                                <hr/>
+                                                <ul>
+                                                    <li>Estructura de contenidos sin jerarquía establecida de contenidos
+                                                        <ul>
+                                                            <li>Los visitantes esperan los mismos colores, diseño logo, fuentes, etiquetas de navegación, etcétera en el mismo lugar de cada sección.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Falta de consistencia</li>
+                                                    <li>Falta de cuadro de búsqueda</li>
+                                                    <li>Navegación experimental</li>
+                                                    <li>Contenido desactualizado</li>
+                                                    <li>Enlaces rotos</li>
+                                                    <li>Organización inusual del contenido</li>
+                                                </ul>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
                                                 <h3>ESTRUCTURA</h3>
@@ -59,6 +73,12 @@ export default function Pagina() {
                     </Row>
                 </Container>
             </main>
+            <style jsx>{`
+                .myClass ul > li > a {
+                    background-color: gray;
+                    color: white;
+                }
+            `}</style>
         </Layout>
     )
 }
