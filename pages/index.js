@@ -15,12 +15,11 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://azul.mx"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="https://azul.mx/templates/azulmx2013/images/badge.png" alt="AZUL Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
