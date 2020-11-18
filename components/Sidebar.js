@@ -54,6 +54,9 @@ class Sidebar extends Component {
                             </NavText>
                         </NavItem>
                     </Link>
+                    <Link href="/calendario">
+                        <img src="https://azul.mx/templates/azulmx2013/images/badge.png" alt="" title="" style={{ position: 'absolute', bottom: '0', width: '60px'}} />
+                    </Link>
                 </SideNav.Nav>
             </SideNav>
         )

@@ -10,8 +10,8 @@ export default function Pagina() {
     return (
         <Layout>
             <main className={styles.textos}>
-                <h2>PÁGINA WEB | WORDPRESS</h2>
-                <h5>Diagnóstico desarrollo web <b>NRGI Broker</b></h5>
+                <h2><span className="lnr lnr-arrow-right-circle"></span> PÁGINA WEB | WORDPRESS</h2>
+                <h5><span className="lnr lnr-chevron-right"></span> Diagnóstico desarrollo web <b>NRGI Broker</b></h5>
                 <p>El diagnóstico se baso en una serie de puntos concretos que enlistamos a continuación. Esto incluye una serie de parámetros de configuración y actualización del CMS (Wordpress), base de datos y plugins de terceros.</p>
                 <ul>
                     <li><b>Usabilidad</b> - lo fácil con que los usuarios y Google se mueven dentro del sitio (SEO)</li>
@@ -43,6 +43,9 @@ export default function Pagina() {
                                             </Nav.Item>
                                             <Nav.Item>
                                                 <Nav.Link eventKey="fifth" className="tabbex">ARQUITECTURA <span className="lnr lnr-arrow-right-circle"></span></Nav.Link>
+                                            </Nav.Item>
+                                            <Nav.Item>
+                                                <Nav.Link eventKey="sixth" className="tabbex">SOLUCIÓN <span className="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                     </Col>
@@ -79,6 +82,10 @@ export default function Pagina() {
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="fifth">
                                                 <h3><span className="lnr lnr-chevron-right"></span> ARQUITECTURA</h3>
+                                                <hr/>
+                                            </Tab.Pane>
+                                            <Tab.Pane eventKey="sixth">
+                                                <h3><span className="lnr lnr-chevron-right"></span> SOLUCIÓN</h3>
                                                 <hr/>
                                             </Tab.Pane>
                                         </Tab.Content>
