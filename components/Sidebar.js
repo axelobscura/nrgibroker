@@ -17,7 +17,7 @@ class Sidebar extends Component {
                     <Link href="/">
                         <NavItem eventKey="home">
                             <NavIcon>
-                                <span class="lnr lnr-home" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
+                                <span className="lnr lnr-home" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
                             </NavIcon>
                             <NavText>
                                 INICIO
@@ -27,7 +27,7 @@ class Sidebar extends Component {
                     <Link href="/pagina">
                         <NavItem eventKey="home">
                             <NavIcon>
-                                <span class="lnr lnr-rocket" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
+                                <span className="lnr lnr-rocket" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
                             </NavIcon>
                             <NavText>
                                 PÁGINA WEB
@@ -37,7 +37,7 @@ class Sidebar extends Component {
                     <Link href="/redes">
                         <NavItem eventKey="home">
                             <NavIcon>
-                            <span class="lnr lnr-thumbs-up" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
+                            <span className="lnr lnr-thumbs-up" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
                             </NavIcon>
                             <NavText>
                                 REDES SOCIALES
@@ -47,7 +47,7 @@ class Sidebar extends Component {
                     <Link href="/calendario">
                         <NavItem eventKey="home">
                             <NavIcon>
-                            <span class="lnr lnr-calendar-full" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
+                            <span className="lnr lnr-calendar-full" style={{ fontSize: '1.75em', color: '#ffffff' }}></span>
                             </NavIcon>
                             <NavText>
                                 CALENDARIO

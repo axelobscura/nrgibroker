@@ -12,7 +12,6 @@ export default function Pagina() {
             <main className={styles.textos}>
                 <h2>PÁGINA WEB | WORDPRESS</h2>
                 <h5>Diagnóstico desarrollo web <b>NRGI Broker</b></h5>
-                <hr/>
                 <p>El diagnóstico se baso en una serie de puntos concretos que enlistamos a continuación. Esto incluye una serie de parámetros de configuración y actualización del CMS (Wordpress), base de datos y plugins de terceros.</p>
                 <ul>
                     <li><b>Usabilidad</b> - lo fácil con que los usuarios y Google se mueven dentro del sitio (SEO)</li>
@@ -23,34 +22,34 @@ export default function Pagina() {
                 </ul>
                 <p>Si  se  cometen  errores  (tanto por  acción  como  por  omisión)  en  estas  bases fundamentales del desarrollo, difícilmente se obtendrá esa visibilidad necesaria y, por tanto, el éxito de la web  estará  condenado.  Sería  como  construir sin  cimientos o  sobre  cimientos  con  graves  deficiencias  que propiciarán su derrumbe.</p>
                 <hr/>
-                <Container fluid={true}>
-                    <Row fluid={true}>
+                <Container>
+                    <Row>
                         <Col>
                             <Tab.Container id="left-tabs-example" defaultActiveKey="first" className="myClass">
                                 <Row className="lostabs p-0">
                                     <Col sm={3}>
                                         <Nav variant="pills" className="flex-column">
                                             <Nav.Item>
-                                                <Nav.Link eventKey="first" className="tabbex">USABILIDAD <span class="lnr lnr-arrow-right-circle"></span></Nav.Link>
+                                                <Nav.Link eventKey="first" className="tabbex">USABILIDAD <span className="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="second" className="tabbex">ESTRUCTURA <span class="lnr lnr-arrow-right-circle"></span></Nav.Link>
+                                                <Nav.Link eventKey="second" className="tabbex">ESTRUCTURA <span className="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="third" className="tabbex">FUNCIONALIDAD <span class="lnr lnr-arrow-right-circle"></span></Nav.Link>
+                                                <Nav.Link eventKey="third" className="tabbex">FUNCIONALIDAD <span className="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="fourth" className="tabbex">APARIENCIA <span class="lnr lnr-arrow-right-circle"></span></Nav.Link>
+                                                <Nav.Link eventKey="fourth" className="tabbex">APARIENCIA <span className="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="fifth" className="tabbex">ARQUITECTURA <span class="lnr lnr-arrow-right-circle"></span></Nav.Link>
+                                                <Nav.Link eventKey="fifth" className="tabbex">ARQUITECTURA <span className="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                     </Col>
                                     <Col sm={9}>
                                         <Tab.Content>
                                             <Tab.Pane eventKey="first">
-                                                <h3><span class="lnr lnr-chevron-right"></span> USABILIDAD</h3>
+                                                <h3><span className="lnr lnr-chevron-right"></span> USABILIDAD</h3>
                                                 <hr/>
                                                 <ul>
                                                     <li>Estructura de contenidos sin jerarquía establecida de contenidos
@@ -67,19 +66,19 @@ export default function Pagina() {
                                                 </ul>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
-                                                <h3><span class="lnr lnr-chevron-right"></span> ESTRUCTURA</h3>
+                                                <h3><span className="lnr lnr-chevron-right"></span> ESTRUCTURA</h3>
                                                 <hr/>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third">
-                                                <h3><span class="lnr lnr-chevron-right"></span> FUNCIONALIDAD</h3>
+                                                <h3><span className="lnr lnr-chevron-right"></span> FUNCIONALIDAD</h3>
                                                 <hr/>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="fourth">
-                                                <h3><span class="lnr lnr-chevron-right"></span> APARIENCIA</h3>
+                                                <h3><span className="lnr lnr-chevron-right"></span> APARIENCIA</h3>
                                                 <hr/>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="fifth">
-                                                <h3><span class="lnr lnr-chevron-right"></span> ARQUITECTURA</h3>
+                                                <h3><span className="lnr lnr-chevron-right"></span> ARQUITECTURA</h3>
                                                 <hr/>
                                             </Tab.Pane>
                                         </Tab.Content>
