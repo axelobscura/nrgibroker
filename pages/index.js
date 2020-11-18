@@ -1,14 +1,15 @@
 import Layout from '../components/Layout';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <Layout>
       <main className={styles.main}>
-          <h2>PROPUESTA DE DESARROLLO</h2>
-          <h1 className="font-weight-bold">NRGI Broker</h1>
+          <Link href="/pagina"><h1 className="font-weight-bold">NRGI Broker</h1></Link>
           <p>ENERGY INSURANCE BROKER</p>
-          <h4>DESARROLLADO POR AZUL.MX</h4>
+          <h2>PROPUESTA DE DESARROLLO</h2>
+          <h4>AZUL.MX</h4>
       </main>
     </Layout>
   )
