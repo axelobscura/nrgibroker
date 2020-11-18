@@ -26,6 +26,10 @@
   width: 80%;
 }
 
+a.tabbex.nav-link {
+  background-color: #333 !important;
+}
+
 .textos h2 {
   text-align: left;
   font-weight: bold;

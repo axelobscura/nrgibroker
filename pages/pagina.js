@@ -13,7 +13,7 @@ export default function Pagina() {
                 <h2>PÁGINA WEB | WORDPRESS</h2>
                 <h5>Diagnóstico desarrollo web <b>NRGI Broker</b></h5>
                 <hr/>
-                <p>El diagnóstico se baso en una serie de puntos concretos que enlistamos a continuación. Esto incluye una serie de parámetros de configuración.</p>
+                <p>El diagnóstico se baso en una serie de puntos concretos que enlistamos a continuación. Esto incluye una serie de parámetros de configuración y actualización del CMS (Wordpress), base de datos y plugins de terceros.</p>
                 <ul>
                     <li><b>Usabilidad</b> - lo fácil con que los usuarios y Google se mueven dentro del sitio (SEO)</li>
                     <li><b>Estructura</b> - la organización jerárquica del contenido</li>
@@ -27,23 +27,23 @@ export default function Pagina() {
                     <Row fluid={true}>
                         <Col>
                             <Tab.Container id="left-tabs-example" defaultActiveKey="first" className="myClass">
-                                <Row>
+                                <Row className="lostabs p-0">
                                     <Col sm={3}>
                                         <Nav variant="pills" className="flex-column">
                                             <Nav.Item>
-                                                <Nav.Link eventKey="first">USABILIDAD</Nav.Link>
+                                                <Nav.Link eventKey="first" className="tabbex">USABILIDAD <span class="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="second">ESTRUCTURA</Nav.Link>
+                                                <Nav.Link eventKey="second" className="tabbex">ESTRUCTURA <span class="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="third">FUNCIONALIDAD</Nav.Link>
+                                                <Nav.Link eventKey="third" className="tabbex">FUNCIONALIDAD <span class="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="fourth">APARIENCIA</Nav.Link>
+                                                <Nav.Link eventKey="fourth" className="tabbex">APARIENCIA <span class="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="fifth">ARQUITECTURA</Nav.Link>
+                                                <Nav.Link eventKey="fifth" className="tabbex">ARQUITECTURA <span class="lnr lnr-arrow-right-circle"></span></Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                     </Col>
@@ -94,6 +94,9 @@ export default function Pagina() {
                 .myClass ul > li > a {
                     background-color: gray;
                     color: white;
+                }
+                a.tabbex.nav-link {
+                    background-color: #333 !important;
                 }
             `}</style>
         </Layout>

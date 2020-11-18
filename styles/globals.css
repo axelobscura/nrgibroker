@@ -27,3 +27,28 @@ h3 {
 .sidenav {
   background: #202844 !important;
 }
+
+a.tabbex.nav-link.active {
+  background-color: #333 !important;
+  color: #fff;
+  border-radius: 0;
+}
+
+a.tabbex.nav-link {
+  background-color: #f2f2f2 !important;
+  color: #333;
+  border-radius: 0;
+  transition: all 1s;
+}
+
+a.tabbex.nav-link .lnr {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  color: #fff;
+}
+
+a.tabbex.nav-link:hover {
+  background-color: #f18802 !important;
+  color: #202844;
+}
